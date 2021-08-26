@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oop_javafx_demo3.CirclesLineController">
+   <children>
+      <Circle fx:id="circle1" centerX="40.0" centerY="40.0" fill="DODGERBLUE" onMouseDragged="#onMouseDragged1" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle2" centerX="150.0" centerY="120.0" fill="DODGERBLUE" onMouseDragged="#onMouseDragged2" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Line fx:id="line" endX="150.0" endY="120.0" startX="39.99998474121094" startY="40.0" />
+      <Label fx:id="distance" layoutX="104.0" layoutY="63.0" text="distance" />
+   </children>
+</Pane>
